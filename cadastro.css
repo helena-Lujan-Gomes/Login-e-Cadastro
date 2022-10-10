@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgb(57, 69, 167);
+    background: linear-gradient(90deg, rgba(57, 69, 167, 1) 2%, rgba(31, 31, 182, 1) 32%, rgba(31, 31, 120, 1) 70%, rgba(14, 11, 60, 1) 94%);
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    max-height: 600px;
+}
+
+#form-header {
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+#form-name-section label {
+    display: block;
+    /*ele preenche tudo, entao manda o imput nesse caso para a parte debaixo*/
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+#form-name-section input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+
+
+#form-lastname-section2 label {
+    display: block;
+    color: white;
+    margin-bottom: 20px;
+}
+
+#form-lastname-section2 input {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 30px;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+#form-email-section3 label {
+    display: block;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#form-email-section3 input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+button {
+    padding: 10px;
+    text-transform: uppercase;
+    /*transformaçao do texto, uppercase (tudo maiusculo)* lowercase(tudo minusculo), capitalize(primeira letra maiuscula)*/
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    color: rgb(2, 48, 48);
+    font-weight: bolder;
+    cursor: pointer;
+    transition: 0.6s;
+}
+
+button:hover {
+    color: white;
+    background: rgb(57, 69, 167);
+    background: linear-gradient(90deg, rgba(57, 69, 167, 1) 2%, rgba(31, 31, 182, 1) 32%, rgba(31, 31, 120, 1) 70%, rgba(14, 11, 60, 1) 94%);
+
+}
+
+a {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
